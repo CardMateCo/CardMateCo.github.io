@@ -63,7 +63,8 @@ const FloatingBeers = ({
                 const startY = -60;
                 const endY = currentDims.height + 60;
 
-                let x = Math.random() * currentDims.width;
+                // Constrain X to avoid overflow (max scale ~1.8 * 40px ≈ 72px + rotation padding)
+                let x = Math.random() * (currentDims.width - 100);
                 // Simple overlap check could go here if we tracked all current Xs, but randomized is usually fine for web.
 
                 if (isFirstRun) {
