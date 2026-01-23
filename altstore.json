@@ -23,6 +23,14 @@
             "screenshots": [],
             "versions": [
                 {
+                    "version": "2.3.0",
+                    "buildVersion": "22",
+                    "date": "2026-1-23T07:00:00-08:00",
+                    "size": 10470222,
+                    "downloadURL": "https://cardmateco.github.io/beermate/app.adp/manifest.json",
+                    "localizedDescription": "New version with new games, iOS 26 support and bugfixes."
+                },
+                {
                     "version": "2.0.0",
                     "buildVersion": "15",
                     "date": "2025-12-02T07:00:00-08:00",
