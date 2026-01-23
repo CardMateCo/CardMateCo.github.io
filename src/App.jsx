@@ -5,9 +5,19 @@ import TermsOfUse from './TermsOfUse'
 import Home from './Home'
 import FAQ from './FAQ'
 
+import FloatingBeers from './components/FloatingBeers'
+
 function App() {
     return (
         <Router>
+            <FloatingBeers
+                count={15}
+                opacity={0.3}
+                minScale={1.1}
+                maxScale={1.8}
+                icons={['🍺']}
+                duration={10000}
+            />
             <nav style={{ padding: '1rem', borderBottom: '1px solid #ccc', marginBottom: '2.5rem' }}>
                 <Link to="/" style={{ marginRight: '1rem' }}>Home</Link>
                 <Link to="/faq">FAQ</Link>
