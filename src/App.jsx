@@ -1,18 +1,16 @@
-import { HashRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router } from 'react-router-dom'
 import './App.css'
-import PrivacyPolicy from './PrivacyPolicy'
-import TermsOfUse from './TermsOfUse'
-import Home from './Home'
-import FAQ from './FAQ'
 import Footer from './components/Footer'
 import TopBar from './components/TopBar'
-
+import ScrollToTop from './components/ScrollToTop'
+import AnimatedRoutes from './components/AnimatedRoutes'
 
 import FloatingBeers from './components/FloatingBeers'
 
 function App() {
     return (
         <Router>
+            <ScrollToTop />
             <FloatingBeers
                 count={15}
                 opacity={0.3}
@@ -23,12 +21,7 @@ function App() {
             />
             <TopBar />
 
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/privacy" element={<PrivacyPolicy />} />
-                <Route path="/terms" element={<TermsOfUse />} />
-                <Route path="/faq" element={<FAQ />} />
-            </Routes>
+            <AnimatedRoutes />
             <Footer />
         </Router>
     )
