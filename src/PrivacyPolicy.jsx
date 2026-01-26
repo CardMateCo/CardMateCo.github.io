@@ -8,8 +8,8 @@ function PrivacyPolicy() {
                 <li><strong>No Personal Data Collection</strong><br />
                     This app does not collect, store, or share any personal information or data from users. When you use the App, no information about you or your device is collected or transmitted.
                 </li>
-                <li><strong>No Tracking or Analytics</strong><br />
-                    The App does not use any analytics tools, tracking technologies, or third-party services that collect user data.
+                <li><strong>Analytics</strong><br />
+                    The App uses Firebase Analytics, to collect anonymous and aggregated information about app usage, including games played, session duration, engagement metrics, and location data. This information does not identify individual users. The App does not collect, store, or process any personal data.
                 </li>
                 <li><strong>Data Security</strong><br />
                     Since we do not collect any personal data, we do not process, store, or secure user data.
