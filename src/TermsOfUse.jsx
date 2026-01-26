@@ -25,11 +25,6 @@ function TermsOfUse() {
                     These Terms may be updated from time to time. Continued use of the App after any changes constitutes your acceptance of the updated Terms.
                 </li>
             </ol>
-            <hr className="divider" />
-            <div className="footer">
-                <div>BEERMATE</div>
-                <div>CardMateCompany</div>
-            </div>
         </div>
     );
 }

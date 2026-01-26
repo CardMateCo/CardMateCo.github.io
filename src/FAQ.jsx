@@ -30,11 +30,6 @@ const FAQ = () => {
                 Found a bug or have a suggestion? Please email us at:{' '}
                 <a href="mailto:jonatanwestling4@gmail.com">jonatanwestling4@gmail.com</a>
             </p>
-            <hr className="divider" />
-            <div className="footer">
-                <div>BeerMate</div>
-                <div>CardMateCompany</div>
-            </div>
         </div>
     );
 };

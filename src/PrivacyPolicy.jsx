@@ -25,11 +25,6 @@ function PrivacyPolicy() {
                     <a href="mailto:jonatanwestling4@gmail.com">jonatanwestling4@gmail.com</a>
                 </li>
             </ol>
-            <hr className="divider" />
-            <div className="footer">
-                <div>BEERMATE</div>
-                <div>CardMateCompany</div>
-            </div>
         </div>
     );
 }
