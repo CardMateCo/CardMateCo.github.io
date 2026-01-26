@@ -1,7 +1,7 @@
 function TermsOfUse() {
     return (
         <div className="card">
-            <h2>Terms of Use</h2>
+            <h1 className="hero-title">Terms of Use</h1>
             <p className="page-desc"><strong>Effective date:</strong> July 2, 2025</p>
             <p>Welcome to <strong>BEERMATE</strong>!</p>
             <p>Please read these Terms of Use carefully before using the app.</p>

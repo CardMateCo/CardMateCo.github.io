@@ -3,7 +3,7 @@ import React from 'react';
 const FAQ = () => {
     return (
         <div className="page-content">
-            <h2>Frequently Asked Questions</h2>
+            <h1 className="hero-title">FAQ</h1>
             <p className="page-desc">Here are some common questions about BEERMATE.</p>
 
             <ul>

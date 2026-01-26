@@ -1,7 +1,7 @@
 function PrivacyPolicy() {
     return (
         <div className="card">
-            <h2>Privacy Policy</h2>
+            <h1 className="hero-title">Privacy Policy</h1>
             <p className="page-desc"><strong>Effective date:</strong> July 2, 2025</p>
             <p>Thank you for choosing to use <strong>BEERMATE</strong> (the "App"). Your privacy is important to us.</p>
             <ol className="legal-list">
