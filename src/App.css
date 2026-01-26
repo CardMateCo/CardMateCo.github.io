@@ -56,13 +56,57 @@ h2 {
     line-height: 1.1;
     margin-bottom: 0.5rem;
     margin-top: 4rem;
-    /* Additional spacing from top bar */
-    background: linear-gradient(135deg, #fff 0%, #E69B00 100%);
+
+    /* Beer Texture & Animation */
+    color: transparent;
+    /* Fallback */
+    /* 
+       Layer 1: Small asymmetrical bubbles 
+       Layer 2: Larger asymmetrical bubbles
+       Layer 3: Beer Gradient Base
+    */
+    background-image:
+        radial-gradient(circle, rgba(255, 255, 255, 0.7) 1.5px, transparent 2.5px),
+        radial-gradient(circle, rgba(255, 255, 255, 0.5) 2.5px, transparent 3.5px),
+        linear-gradient(to bottom, #FFC107 0%, #FF9800 60%, #FF6F00 100%);
+
+    /* Prime number sizes create non-repeating, pseudo-random patterns */
+    background-size:
+        29px 43px,
+        53px 71px,
+        100% 100%;
+
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 0 10px 30px rgba(230, 155, 0, 0.3);
-    animation: fadeIn 1s ease-out;
+
+    /* 3D/Glossy Text Shadow */
+    filter: drop-shadow(0 4px 6px rgba(230, 155, 0, 0.4));
+
+    animation:
+        fadeIn 1s ease-out,
+        beerBubbleRise 8s linear infinite;
+
+    font-weight: 800;
+}
+
+@keyframes beerBubbleRise {
+    0% {
+        background-position:
+            0px 430px,
+            /* Layer 1 starts lower */
+            0px 710px,
+            /* Layer 2 starts lower */
+            0 0;
+        /* Base stays still */
+    }
+
+    100% {
+        background-position:
+            0px 0px,
+            0px 0px,
+            0 0;
+    }
 }
 
 .hero-subtitle {
