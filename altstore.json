@@ -3,9 +3,9 @@
     "subtitle": "All our apps in one place.",
     "description": "Welcome to our source! Here you'll find all of our apps.",
     "fediUsername": "cardmate",
-    "iconURL": "https://cardmateco.github.io/beermate/cardmate/cardmate.png",
-    "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
-    "website": "https://cardmateco.github.io/beermate/#/",
+    "iconURL": "https://home.beermate.se/cardmate/cardmate.png",
+    "headerURL": "https://home.beermate.se/cardmate/beer.png",
+    "website": "https://home.beermate.se/#/",
     "tintColor": "#4185A9",
     "featuredApps": [
         "com.cardmate.beermate"
