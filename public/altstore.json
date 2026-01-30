@@ -3,9 +3,9 @@
     "subtitle": "All our apps in one place.",
     "description": "Welcome to our source! Here you'll find all of our apps.",
     "fediUsername": "cardmate",
-    "iconURL": "https://cardmateco.github.io/beermate/cardmate/cardmate.png",
-    "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
-    "website": "https://cardmateco.github.io/beermate/#/",
+    "iconURL": "https://home.beermate.se/cardmate/cardmate.png",
+    "headerURL": "https://home.beermate.se/cardmate/beer.png",
+    "website": "https://home.beermate.se/#/",
     "tintColor": "#4185A9",
     "featuredApps": [
         "com.cardmate.beermate"
@@ -18,7 +18,7 @@
             "developerName": "Team Cardmate",
             "subtitle": "An awesome drinking app.",
             "localizedDescription": "This is an awesome drinking app only available on AltStore.",
-            "iconURL": "https://cardmateco.github.io/beermate/cardmate/beer.png",
+            "iconURL": "https://home.beermate.se/cardmate/beer.png",
             "tintColor": "#5CA399",
             "screenshots": [],
             "versions": [
@@ -27,7 +27,7 @@
                     "buildVersion": "22",
                     "date": "2026-1-23T07:00:00-08:00",
                     "size": 10470222,
-                    "downloadURL": "https://cardmateco.github.io/beermate/app.adp/manifest.json",
+                    "downloadURL": "https://home.beermate.se/app.adp/manifest.json",
                     "localizedDescription": "New version with new games, iOS 26 support and bugfixes."
                 },
                 {
@@ -35,7 +35,7 @@
                     "buildVersion": "15",
                     "date": "2025-12-02T07:00:00-08:00",
                     "size": 9459295,
-                    "downloadURL": "https://cardmateco.github.io/beermate/app.adp/manifest.json",
+                    "downloadURL": "https://home.beermate.se/app.adp/manifest.json",
                     "localizedDescription": "First release of BEERMATE."
                 }
             ],
