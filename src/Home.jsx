@@ -23,7 +23,7 @@ function Home() {
                     <div className="btn-large-sub" style={{ color: '#E69B00' }}>Best Performance</div>
                 </a>
                 <a
-                    href="https://drinkup-beermate.web.app"
+                    href="https://beermate.se"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-large"
@@ -70,7 +70,7 @@ function Home() {
                         <div className="step-number">2</div>
                         <h4>Install BEERMATE</h4>
                         <p>Once AltStore is ready, click below to install BEERMATE.</p>
-                        <a href="altstore://source?url=https://cardmateco.github.io/beermate/altstore.json" className="btn-primary">
+                        <a href="altstore://source?url=https://home.beermate.se/altstore.json" className="btn-primary">
                             Get BEERMATE
                         </a>
                     </div>
