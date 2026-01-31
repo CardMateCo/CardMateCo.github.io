@@ -240,7 +240,6 @@ h2 {
 
 .btn-large-icon {
     font-size: 3rem;
-    margin-bottom: 1rem;
 }
 
 .btn-large-text {
@@ -517,6 +516,80 @@ a:hover {
     transform: translateY(-2px);
     text-decoration: none;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.btn-glossy {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    color: var(--color-text-main);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+
+.btn-glossy:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-3px);
+    border-color: rgba(230, 155, 0, 0.3);
+    text-decoration: none;
+    color: var(--color-text-main);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn-instagram {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: linear-gradient(45deg, rgba(64, 93, 230, 0.1), rgba(225, 48, 108, 0.1), rgba(252, 175, 69, 0.1));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    color: var(--color-text-main);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn-instagram::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 0.4s ease;
+    border-radius: 100px;
+}
+
+.btn-instagram:hover {
+    transform: translateY(-3px);
+    border-color: rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 10px 25px rgba(225, 48, 108, 0.4);
+}
+
+.btn-instagram:hover::before {
+    opacity: 1;
 }
 
 @media (max-width: 768px) {

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { FaInstagram, FaApple, FaGlobe } from 'react-icons/fa'
 
 function Home() {
     return (
@@ -18,7 +19,9 @@ function Home() {
                         }
                     }}
                 >
-                    <div className="btn-large-icon"></div>
+                    <div className="btn-large-icon">
+                        <FaApple />
+                    </div>
                     <div className="btn-large-text">iOS Download</div>
                     <div className="btn-large-sub" style={{ color: '#E69B00' }}>Best Performance</div>
                 </a>
@@ -28,7 +31,9 @@ function Home() {
                     rel="noopener noreferrer"
                     className="btn-large"
                 >
-                    <div className="btn-large-icon">🌐</div>
+                    <div className="btn-large-icon">
+                        <FaGlobe />
+                    </div>
                     <div className="btn-large-text">Web App</div>
                     <div className="btn-large-sub">No install needed</div>
                 </a>
@@ -53,6 +58,18 @@ function Home() {
                         ))}
                     </div>
                 </div>
+            </div>
+
+            <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
+                <a
+                    href="https://www.instagram.com/beer.mate/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-instagram"
+                >
+                    <FaInstagram size={24} style={{ marginRight: '0.5rem' }} />
+                    <span>Follow @beer.mate now</span>
+                </a>
             </div>
 
             <div id="ios-guide" className="install-guide" style={{ scrollMarginTop: '100px' }}>
