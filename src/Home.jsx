@@ -62,13 +62,13 @@ function Home() {
 
             <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
                 <a
-                    href="https://www.instagram.com/beer.mate/"
+                    href="https://www.instagram.com/beermate.se/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-instagram"
                 >
                     <FaInstagram size={24} style={{ marginRight: '0.5rem' }} />
-                    <span>Follow @beer.mate now</span>
+                    <span>Följ @beermate.se nu!</span>
                 </a>
             </div>
 
