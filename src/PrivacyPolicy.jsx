@@ -22,7 +22,7 @@ function PrivacyPolicy() {
                 </li>
                 <li><strong>Contact Us</strong><br />
                     If you have any questions or concerns about this Privacy Policy, please contact us at:<br />
-                    <a href="mailto:jonatanwestling4@gmail.com">jonatanwestling4@gmail.com</a>
+                    <a href="https://instagram.com/beermate.se">@beermate.se</a>
                 </li>
             </ol>
         </div>

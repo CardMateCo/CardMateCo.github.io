@@ -27,8 +27,8 @@ const FAQ = () => {
 
             <h3>Report a Bug</h3>
             <p>
-                Found a bug or have a suggestion? Please email us at:{' '}
-                <a href="mailto:jonatanwestling4@gmail.com">jonatanwestling4@gmail.com</a>
+                Found a bug or have a suggestion? Please contact us at:{' '}
+                <a href="https://www.instagram.com/beermate.se/">@beermate.se</a>
             </p>
         </div>
     );
