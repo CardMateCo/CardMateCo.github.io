@@ -23,6 +23,14 @@
             "screenshots": [],
             "versions": [
                 {
+                    "version": "2.4.2",
+                    "buildVersion": "27",
+                    "date": "2026-02-05T13:27:00-08:00",
+                    "size": 175279872,
+                    "downloadURL": "https://home.beermate.se/app.adp/manifest.json",
+                    "localizedDescription": "New game Draw & Guess, bugfixes and improvements."
+                },
+                {
                     "version": "2.3.0",
                     "buildVersion": "22",
                     "date": "2026-1-23T07:00:00-08:00",
