@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { FaInstagram, FaApple, FaGlobe } from 'react-icons/fa'
+import { FaInstagram, FaApple, FaGlobe, FaAndroid } from 'react-icons/fa'
 
 function Home() {
     return (
@@ -24,6 +24,17 @@ function Home() {
                     </div>
                     <div className="btn-large-text">iOS Download</div>
                     <div className="btn-large-sub" style={{ color: '#E69B00' }}>Best Performance</div>
+                </a>
+                <a
+                    href={`https://github.com/CardMateCo/CardMateCo.github.io/releases/download/v1.0.0/app-release.apk`}
+                    className="btn-large"
+                    download
+                >
+                    <div className="btn-large-icon">
+                        <FaAndroid />
+                    </div>
+                    <div className="btn-large-text">Android App</div>
+                    <div className="btn-large-sub">Direct APK</div>
                 </a>
                 <a
                     href="https://beermate.se"
