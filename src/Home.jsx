@@ -22,20 +22,10 @@ function Home() {
                     <div className="btn-large-icon">
                         <FaApple />
                     </div>
-                    <div className="btn-large-text">iOS Download</div>
+                    <div className="btn-large-text">iOS App</div>
                     <div className="btn-large-sub" style={{ color: '#E69B00' }}>Best Performance</div>
                 </a>
-                <a
-                    href={`https://github.com/CardMateCo/CardMateCo.github.io/releases/download/v1.0.0/app-release.apk`}
-                    className="btn-large"
-                    download
-                >
-                    <div className="btn-large-icon">
-                        <FaAndroid />
-                    </div>
-                    <div className="btn-large-text">Android App</div>
-                    <div className="btn-large-sub">Direct APK</div>
-                </a>
+
                 <a
                     href="https://beermate.se"
                     target="_blank"
@@ -45,8 +35,21 @@ function Home() {
                     <div className="btn-large-icon">
                         <FaGlobe />
                     </div>
-                    <div className="btn-large-text">Web App</div>
-                    <div className="btn-large-sub">No install needed</div>
+                    <div className="btn-large-text">Web</div>
+                    <div className="btn-large-sub">Spela på webben!</div>
+
+                </a>
+
+                <a
+                    href={`https://github.com/CardMateCo/CardMateCo.github.io/releases/download/v1.0.0/app-release.apk`}
+                    className="btn-large"
+                    download
+                >
+                    <div className="btn-large-icon">
+                        <FaAndroid />
+                    </div>
+                    <div className="btn-large-text">Android App</div>
+                    <div className="btn-large-sub" style={{ color: '#E69B00' }}>Best Performance</div>
                 </a>
             </div>
 
